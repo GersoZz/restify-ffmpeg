@@ -1,6 +1,9 @@
+import { spawn } from 'node:child_process'
+
 export const webmToMp4 = () =>
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   new Promise((resolve, _reject) => {
-    const { spawn } = require('node:child_process')
+    // const { spawn } = require('node:child_process')
 
     const inputPath = 'src/files/videoWEBM.webm'
     const outputPath = 'src/files/1-webm-to-mp4/videoMP4converted.mp4'
@@ -22,8 +25,9 @@ export const webmToMp4 = () =>
   })
 
 export const mp4ToWebm = () =>
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   new Promise((resolve, _reject) => {
-    const { spawn } = require('node:child_process')
+    // const { spawn } = require('node:child_process')
 
     const inputPath = 'src/files/videoMP4.mp4'
     const outputPath = 'src/files/2-mp4-to-webm/videoWEBMconverted.webm'
@@ -45,8 +49,9 @@ export const mp4ToWebm = () =>
   })
 
 export const muteVideos = () =>
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   new Promise((resolve, _reject) => {
-    const { spawn } = require('node:child_process')
+    // const { spawn } = require('node:child_process')
 
     const inputPathMP4 = 'src/files/videoMP4.mp4'
     const outputPathMP4 = 'src/files/3-muteds/videoMP4muted.mp4'
