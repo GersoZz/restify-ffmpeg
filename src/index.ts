@@ -1,3 +1,3 @@
-import executeMainServer from "./server";
+import executeMainServer from './server'
 
 executeMainServer()

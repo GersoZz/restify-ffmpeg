@@ -1,4 +1,4 @@
-import {Router} from 'restify-router'
+import { Router } from 'restify-router'
 import ffmpegRoute from './ffmpeg.router'
 
 const PrincipalRouter = new Router()
